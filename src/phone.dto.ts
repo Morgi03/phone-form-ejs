@@ -3,6 +3,6 @@ export class PhoneDto {
   type: string;
   color: string;
   price: number;
-  batteryState: string;
+  batteryState: number;
   state: string;
 }

@@ -5,6 +5,19 @@
     <title>Phone</title>
   </head>
   <body>
-   
+    <div
+      style="
+        border: 5px solid <%= color %>;
+        border-radius: 25px;
+        padding: 30px;
+        width: 30%;
+        height: 340px;">
+      <progress value=<%= batteryState %> max="100"></progress
+      ><br /><br /><br />
+        <p>Név: <%= name %> <br /></p>
+        <p>Típus: <%= type %> <br /></p>
+        <p>Ár: <%= price %> Ft<br /></p>
+        <p>Állapot: <%= state %></p>
+    </div>
   </body>
 </html>

@@ -5,6 +5,53 @@
     <title>Form</title>
   </head>
   <body>
-    
+    <form method="post">
+      <p>
+        <label>
+          Telefon neve:<br />
+          <input type="text" name="name" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Telefon tipusa:<br />
+          <input type="text" name="type" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Telefon szine:<br />
+          <input type="color" name="color" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Telefon ára:<br />
+          <input type="number" name="price" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Telefon Akkumulátor állapota:<br />
+          <input type="number" name="batteryState" max="100" min="0"/>
+        </label>
+      </p>
+      <p>
+        <label>
+          Telefon állapota:<br />
+          <select name="state">
+            <option>Új</option>
+            <option>Újszerű</option>
+            <option>Karcos</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="submit" value="OK"/>
+        </label>
+      </p>
+      <p></p>
+    </form>
   </body>
 </html>
